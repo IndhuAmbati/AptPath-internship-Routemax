@@ -1,0 +1,21 @@
+.admin-notif-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.admin-notif-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-notif-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 6px;
+}

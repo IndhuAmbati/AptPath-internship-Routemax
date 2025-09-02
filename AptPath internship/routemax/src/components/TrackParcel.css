@@ -1,0 +1,111 @@
+.track-user-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #dff2c2, #c4f5e9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.track-user-container h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.track-form {
+  margin-bottom: 20px;
+}
+
+.track-form input {
+  padding: 10px;
+  width: 280px;
+  border: none;
+  border-bottom: 2px solid #888;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.track-form button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.error-text {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.parcel-info {
+  background-color: white;
+  padding: 25px 30px;
+  margin-top: 20px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.parcel-info h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.status-step-wrapper {
+  position: relative;
+  text-align: center;
+  flex: 1;
+}
+
+.circle {
+  width: 22px;
+  height: 22px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+}
+
+.circle.active {
+  background-color: green;
+}
+
+.line {
+  position: absolute;
+  top: 10px;
+  left: -50%;
+  height: 4px;
+  width: 100%;
+  background-color: #ccc;
+  z-index: 1;
+}
+
+.line.active {
+  background-color: green;
+}
+
+.status-step-wrapper span {
+  margin-top: 8px;
+  display: block;
+  font-size: 14px;
+  color: #333;
+}

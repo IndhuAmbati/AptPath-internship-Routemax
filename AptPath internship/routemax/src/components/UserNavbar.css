@@ -1,0 +1,29 @@
+.user-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002F6C;
+  color: white;
+  padding: 10px 20px;
+}
+
+.user-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.user-nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.user-nav-links li a:hover {
+  text-decoration: underline;
+}
