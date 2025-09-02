@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# AptPath-internship-Routemax
+Routemax – A route optimization and management system created as part of the AptPath Internship.
+
+RouteMax is an efficient logistics management solution tailored for packers & movers businesses. It streamlines customer data, delivery schedules, tracking, notifications, and feedback. By intelligently grouping parcels and optimizing routes, it ensures real-time monitoring, smooth operations, and enhanced customer satisfaction.
+>>>>>>> c39531cc20012a1999f916beef96d72f9e6ec1ae
